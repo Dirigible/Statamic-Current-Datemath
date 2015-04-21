@@ -1,2 +1,14 @@
 # Statamic-Current-Datemath
 Run addition and subtraction operations on today's date.
+
+---------------------
+
+The `{{ current_datemath }}` tag accepts integers in `add` and `subtract` parameters. As you might expect, `add` increases the date by the provided number of days while `subtract` decreases the date.
+
+The tag also accepts the standard `format` parameter found in the `{{ current_date }}` tag.
+
+#### Usage
+
+If today is *2014-03-10*, `{{ current_datemath add="10" }}` will return *2014-03-20*.
+
+If today is *2014-03-10*, `{{ current_datemath minus="10" format="F jS"}}` will return *February 28th*.
