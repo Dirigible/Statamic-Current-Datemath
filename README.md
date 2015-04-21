@@ -9,6 +9,6 @@ The tag also accepts the standard `format` parameter found in the `{{ current_da
 
 #### Usage
 
-If today is *2014-03-10*, `{{ current_datemath add="10" }}` will return *2014-03-20*.
+If today is *2015-08-10*, `{{ current_datemath add="10" }}` will return *2015-08-20*.
 
-If today is *2014-03-10*, `{{ current_datemath minus="10" format="F jS"}}` will return *February 28th*.
+If today is *2015-08-10*, `{{ current_datemath minus="10" format="F jS"}}` will return *July 31st*.
