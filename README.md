@@ -1,6 +1,6 @@
 # Current Datemath
-Run addition and subtraction operations on today's date.
-A [Statamic](http://statamic.com) plugin.
+Run addition and subtraction operations on today's date. A plugin for [Statamic](http://statamic.com).
+
 ---------------------
 
 The `{{ current_datemath }}` tag accepts integers in `add` and `subtract` parameters. As you might expect, `add` increases the date by the provided number of days while `subtract` decreases the date.
