@@ -1,5 +1,5 @@
 # Current Datemath
-Run addition and subtraction operations on today's date. A plugin for [Statamic](http://statamic.com).
+Run addition and subtraction operations on today's date. A plugin for [Statamic](http://statamic.com) (v1).
 
 ---------------------
 
